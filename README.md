@@ -3,7 +3,7 @@ These are the projects I have developed using online resources available at the 
 
 The description of the files and the resource developers are accredited below:
 
--The Pokemon python project was largely based on Rylan Fowers object oriented programming video that can be found here: https://www.youtube.com/watch?v=Pbs6jQZrZA4
+-The Pokemon python project was largely based on Rylan Fowers object oriented programming video by Rylan Fowers and can be found here: https://www.youtube.com/watch?v=Pbs6jQZrZA4
 
 -The TripleX number guessing game was written in C++ and requires a compliler, helpful comments were provided by GameDev.tv.
 
@@ -25,7 +25,7 @@ The description of the files and the resource developers are accredited below:
 
 -temperature_converter.py can be used to convert degrees celsius values to degrees fahrenheit values or vice versa.
 
--tic_tac_toe.py allows for two humans to play a game of naughts and crosses.
+-tic_tac_toe.py allows for two humans to play a game of naughts and crosses. Helpful comments were provided by Jose Portilla.
 
 -pong.py allows for two human players to play pong, helpful comments were made by Christian Thompson
 
