@@ -3,7 +3,7 @@ These are the projects I have developed using online resources available at the 
 
 The description of the files and the resource developers are accredited below:
 
--The Pokemon python project was largely based on Rylan Fowers object oriented programming video by Rylan Fowers and can be found here: https://www.youtube.com/watch?v=Pbs6jQZrZA4
+-The Pokemon python project was largely based on Rylan Fowers object oriented programming video (https://www.youtube.com/watch?v=Pbs6jQZrZA4).
 
 -The TripleX number guessing game was written in C++ and requires a compliler, helpful comments were provided by GameDev.tv.
 
@@ -19,7 +19,7 @@ The description of the files and the resource developers are accredited below:
 
 -simulate_coin_toss.py (heads/tails).
 
--space_invaders.py uses pygame to play space invaders, helpful comments were provided by attreyabhatt (https://github.com/attreyabhatt/Space-Invaders-Pygame)
+-space_invaders.py uses pygame to play space invaders, helpful comments were provided by attreyabhatt (https://github.com/attreyabhatt/Space-Invaders-Pygame).
 
 -sudoku,py uses a back tracking algorithm to solve a (9 by 9) sudoku board. Helpful comments were made by techwithtim.
 
