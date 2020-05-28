@@ -27,5 +27,7 @@ The description of the files and the resource developers are accredited below:
 
 -tic_tac_toe.py allows for two humans to play a game of naughts and crosses.
 
+-pong.py allows for two human players to play pong, helpful comments were made by Christian Thompson
+
 Acknowledgement is also given to the Stack Overflow community.
 
