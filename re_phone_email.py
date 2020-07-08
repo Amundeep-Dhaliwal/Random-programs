@@ -1,5 +1,6 @@
 #! python3
-# Finds phone and email addresses on the clipboard 
+# Finds all phone and email addresses on the clipboard- potential use cases in collecting large quantities of information
+# Script must be run with the text to be parsed copied to the clipboard
 
 import re, pyperclip 
 
