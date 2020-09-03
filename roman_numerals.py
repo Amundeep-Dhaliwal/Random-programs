@@ -60,14 +60,14 @@ def intToRoman(n: int) -> str:
 # a shorter version of the integer to roman numeral function (credit https://leetcode.com/patidarrohit/)
 
 def intToRoman(self, num: int)->str:
-	numlst = [1,2,3,4,5,9,10,40,50,90,100,400,500,900,1000]
+    numlst = [1,2,3,4,5,9,10,40,50,90,100,400,500,900,1000]
     rom = ['I', 'II', 'III', 'IV', 'V', 'IX', 'X', 'XL', 'L', 'XC', 'C', 'CD', 'D', 'CM','M']
     ans = '' 
     while num != 0:
-		for i in numlst:
-			if num -i >= 0:
-				div = i
-            else:
+        for i in numlst:
+		if num -i >= 0:
+		    div = i
+        else:
                 break
         q, r = divmod(num, div)
         ans += q* rom[numlst.index(div)]
