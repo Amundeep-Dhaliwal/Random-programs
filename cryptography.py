@@ -23,7 +23,7 @@ import string
 
 def caesarPortion(letter, offset):
     if letter.isupper():
-        value = ord(letterCode) -65
+        value = ord(letter) -65
         universal = ((value + offset) %26)+65
         return chr(universal)
     else:
