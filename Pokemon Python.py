@@ -36,8 +36,6 @@ class Pokemon:
         print("\nVS")
         print("LVL/", 3*(1 + np.mean([Pokemon2.attack, Pokemon2.defense])))
 
-
-
         time.sleep(2)
 
         #Considering type advantages
@@ -98,7 +96,6 @@ class Pokemon:
             print(f'{Pokemon2.name}\t\tHLTH\t{Pokemon2.health}\n')
             time.sleep(.5)
 
-
             #Check to see if pokemon fainted
             if Pokemon2.bars <= 0:
                 delay_print('\n...' + Pokemon2.name + ' fainted.')
@@ -126,10 +123,6 @@ class Pokemon:
             print(f'{self.name}\t\tHLTH\t{self.health}')
             print(f'{Pokemon2.name}\t\tHLTH\t{Pokemon2.health}\n')
             time.sleep(.5)
-
-
-
-
 
 if __name__ == '__main__':
     #Create pokemon
