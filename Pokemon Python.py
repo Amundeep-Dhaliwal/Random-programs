@@ -2,9 +2,7 @@ import time
 import numpy as np
 import sys
 
-# Delay printing
-
-def delay_print(s):
+def delay_print(s): # Delay printing
     for c in s:
         sys.stdout.write(c)
         sys.stdout.flush()
