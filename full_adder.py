@@ -107,8 +107,6 @@ def calculate(num1, num2, addition = True): # addition and subtraction of two si
                 elif bit == '1':
                     reached_one = True
                 two_complement = bit + two_complement
-                # complement += str(NOT(int(bit)))
-            # two_complement = calculate(int(complement, 2), 1) # addition of one
             two_complement_number = int(two_complement, 2)
             pseudo_minus = calculate(num1, two_complement_number, addition = True)
             answer = int(format(pseudo_minus, 'b')[1:], 2)
